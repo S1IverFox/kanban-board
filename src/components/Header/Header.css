@@ -1,0 +1,27 @@
+.header {
+    background-color: rgb(10, 82, 145);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.header-name {
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: auto 0;
+    margin-left: 20px;
+}
+@media only screen and (max-width : 800px) {
+.header-name {      
+    font-size: 20px;
+}
+}
+.header-wrapper {
+    width: 100%;
+    max-width: 1235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}

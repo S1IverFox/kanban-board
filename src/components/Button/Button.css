@@ -1,0 +1,34 @@
+.btn {
+    width: 102px;
+    height: 29px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 12px 12px 8px 12px;
+    padding: auto;
+    color: #5E6C84;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: white;
+}
+
+.add:disabled {
+    cursor: initial;
+}
+
+.add:disabled:hover {
+    background-color: initial;
+}
+
+.submit {
+    background-color: #0079BF;
+    color: white;
+}

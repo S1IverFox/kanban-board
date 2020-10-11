@@ -1,0 +1,13 @@
+.inputText,.item{
+    width: 250px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    margin: 8px auto;
+    font-size: 18px;
+    padding: 8px;
+}
+
+select {
+width: 266px;
+}
